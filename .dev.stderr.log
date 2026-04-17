@@ -1,0 +1,34 @@
+[browser] Because you set `withCredentials` to true, we will override your `useCdn` setting to be false since (cookie-based) credentials are never set on the CDN (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] You have configured Sanity client to use a token in the browser. This may cause unintentional security issues. See https://www.sanity.io/help/js-client-browser-token for more information and how to hide this warning. (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Because you set `withCredentials` to true, we will override your `useCdn` setting to be false since (cookie-based) credentials are never set on the CDN (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Building schema for synchronization took more than 1 second (1346.300000011921ms) (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] TypeError: network error
+TypeError: network error (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_0m6flku._.js:850:29)
+[browser] Building schema for synchronization took more than 1 second (4173.199999988079ms) (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Building schema for synchronization took more than 1 second (1754.5ms) (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: D:\Ayush\The Turning Point\src\app\globals.css:214:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:112:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] 
+    at handleErrors (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Building schema for synchronization took more than 1 second (7577.300000011921ms) (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Ayush/The Turning Point/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)

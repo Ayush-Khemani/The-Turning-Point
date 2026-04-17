@@ -1,0 +1,158 @@
+
+> the-turning-point@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+- Environments: .env.local
+✓ Ready in 1999ms
+Creating turbopack project { dir: 'D:\\Ayush\\The Turning Point', testMode: true }
+
+ GET /studio 200 in 5.4s (next.js: 3.0s, application-code: 2.4s)
+ GET /studio 200 in 279ms (next.js: 45ms, application-code: 234ms)
+ GET /studio 200 in 244ms (next.js: 43ms, application-code: 201ms)
+ GET /studio 200 in 236ms (next.js: 36ms, application-code: 200ms)
+ GET /studio 200 in 281ms (next.js: 38ms, application-code: 243ms)
+ GET /studio 200 in 229ms (next.js: 32ms, application-code: 197ms)
+ GET /studio 200 in 236ms (next.js: 40ms, application-code: 196ms)
+ GET /studio 200 in 177ms (next.js: 27ms, application-code: 150ms)
+ GET /studio 200 in 477ms (next.js: 112ms, application-code: 365ms)
+✓ Finished filesystem cache database compaction in 10.3s
+✓ Compiled in 6.6s
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 7.4s (next.js: 6.4s, application-code: 1006ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 786ms (next.js: 207ms, application-code: 578ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 772ms (next.js: 21ms, application-code: 751ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 775ms (next.js: 68ms, application-code: 707ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 777ms (next.js: 221ms, application-code: 556ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 779ms (next.js: 291ms, application-code: 487ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 12.1s (next.js: 13ms, application-code: 12.0s)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 12.2s (next.js: 50ms, application-code: 12.1s)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 11.9s (next.js: 156ms, application-code: 11.8s)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 11.9s (next.js: 77ms, application-code: 11.9s)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 11.9s (next.js: 11.6s, application-code: 364ms)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 12.1s (next.js: 15ms, application-code: 12.0s)
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 262ms (next.js: 59ms, application-code: 203ms)
+✓ Finished filesystem cache database compaction in 10.7s
+ GET /studio/structure/post;2046594a-4f87-46af-b79d-91f5723cd649%2Ctemplate%3Dpost 200 in 3.2s (next.js: 654ms, application-code: 2.6s)
+ GET / 200 in 3.1s (next.js: 2.6s, application-code: 537ms)
+ GET / 200 in 2.6s (next.js: 61ms, application-code: 2.5s)
+ GET / 200 in 595ms (next.js: 59ms, application-code: 536ms)
+ GET /blog 200 in 2.2s (next.js: 1437ms, application-code: 738ms)
+✓ Compiled in 1830ms
+ GET /blog/a-quiet-life-can-still-be-an-extraordinary-one 200 in 3.5s (next.js: 2.6s, generate-params: 2.1s, application-code: 876ms)
+ GET /blog/a-quiet-life-can-still-be-an-extraordinary-one 200 in 859ms (next.js: 365ms, generate-params: 19ms, application-code: 494ms)
+ GET /blog/a-quiet-life-can-still-be-an-extraordinary-one 200 in 175ms (next.js: 26ms, generate-params: 44µs, application-code: 149ms)
+ GET / 200 in 679ms (next.js: 343ms, application-code: 335ms)
+✓ Compiled in 1640ms
+ GET / 200 in 1279ms (next.js: 286ms, application-code: 993ms)
+ GET / 200 in 769ms (next.js: 249ms, application-code: 519ms)
+ GET / 200 in 351ms (next.js: 19ms, application-code: 332ms)
+ GET / 200 in 350ms (next.js: 160ms, application-code: 190ms)
+ GET / 200 in 348ms (next.js: 256ms, application-code: 92ms)
+✓ Compiled in 1496ms
+ GET / 200 in 956ms (next.js: 507ms, application-code: 449ms)
+ GET / 200 in 189ms (next.js: 12ms, application-code: 177ms)
+✓ Compiled in 3.4s
+✓ Compiled in 960ms
+ GET / 200 in 721ms (next.js: 50ms, application-code: 671ms)
+ GET / 200 in 380ms (next.js: 10ms, application-code: 370ms)
+ GET / 200 in 256ms (next.js: 10ms, application-code: 245ms)
+ GET / 200 in 257ms (next.js: 127ms, application-code: 130ms)
+✓ Compiled in 544ms
+ GET / 200 in 1563ms (next.js: 681ms, application-code: 882ms)
+ GET / 200 in 594ms (next.js: 35ms, application-code: 558ms)
+ GET /blog/clarity-after-courage 200 in 1222ms (next.js: 671ms, generate-params: 143ms, application-code: 550ms)
+✓ Compiled in 934ms
+✓ Compiled in 654ms
+ GET / 200 in 2.3s (next.js: 744ms, application-code: 1525ms)
+ GET / 200 in 924ms (next.js: 33ms, application-code: 891ms)
+ GET / 200 in 334ms (next.js: 15ms, application-code: 319ms)
+ GET / 200 in 331ms (next.js: 104ms, application-code: 227ms)
+ GET / 200 in 332ms (next.js: 205ms, application-code: 126ms)
+ GET / 200 in 1104ms (next.js: 101ms, application-code: 1003ms)
+ GET /blog/your-attention-is-building-a-life 200 in 913ms (next.js: 568ms, generate-params: 48ms, application-code: 345ms)
+ GET / 200 in 32ms (next.js: 14ms, application-code: 19ms)
+ GET /blog 200 in 727ms (next.js: 377ms, application-code: 350ms)
+ GET /tags/clarity 200 in 1314ms (next.js: 1151ms, generate-params: 928ms, application-code: 163ms)
+ GET /blog 200 in 114ms (next.js: 11ms, application-code: 103ms)
+ GET / 200 in 192ms (next.js: 10ms, application-code: 181ms)
+ GET /studio 200 in 605ms (next.js: 526ms, application-code: 79ms)
+✓ Compiled in 904ms
+✓ Compiled in 460ms
+ GET /studio/structure/category 200 in 3.8s (next.js: 2.1s, application-code: 1776ms)
+✓ Compiled in 185ms
+ GET /studio/structure/category 200 in 2.7s (next.js: 19ms, application-code: 2.7s)
+ GET /studio/structure/category 200 in 2.3s (next.js: 222ms, application-code: 2.1s)
+ GET /studio/structure/category 200 in 2.3s (next.js: 1983ms, application-code: 279ms)
+ GET /studio/structure/category 200 in 2.2s (next.js: 2.0s, application-code: 200ms)
+ GET /studio/structure/category 200 in 2.2s (next.js: 539ms, application-code: 1645ms)
+ GET /studio/structure/category 200 in 110ms (next.js: 24ms, application-code: 86ms)
+ GET /studio/structure/category 200 in 533ms (next.js: 424ms, application-code: 109ms)
+ GET /studio/structure/category 200 in 8.9s (next.js: 21ms, application-code: 8.9s)
+✓ Compiled in 282ms
+✓ Compiled in 77ms
+✓ Compiled in 66ms
+✓ Compiled in 62ms
+✓ Compiled in 82ms
+ GET /studio/structure/category 200 in 968ms (next.js: 440ms, application-code: 527ms)
+ GET /studio/structure/category 200 in 496ms (next.js: 12ms, application-code: 484ms)
+ GET /studio/structure/category 200 in 412ms (next.js: 11ms, application-code: 401ms)
+ GET /studio/structure/category 200 in 412ms (next.js: 152ms, application-code: 260ms)
+ GET /studio/structure/category 200 in 416ms (next.js: 90ms, application-code: 325ms)
+ GET /studio/structure/category 200 in 418ms (next.js: 211ms, application-code: 207ms)
+ GET /studio/structure/category 200 in 544ms (next.js: 11ms, application-code: 533ms)
+ GET /studio/structure/category 200 in 525ms (next.js: 15ms, application-code: 510ms)
+ GET /studio/structure/category 200 in 480ms (next.js: 10ms, application-code: 469ms)
+ GET /studio/structure/category 200 in 481ms (next.js: 107ms, application-code: 374ms)
+ GET /studio/structure/category 200 in 483ms (next.js: 199ms, application-code: 284ms)
+ GET /studio/structure/category 200 in 240ms (next.js: 11ms, application-code: 229ms)
+ GET /studio/structure/category 200 in 480ms (next.js: 27ms, application-code: 452ms)
+ GET /studio/structure/category 200 in 350ms (next.js: 11ms, application-code: 339ms)
+ GET /studio/structure/category 200 in 289ms (next.js: 8ms, application-code: 280ms)
+ GET /studio/structure/category 200 in 289ms (next.js: 67ms, application-code: 221ms)
+ GET /studio/structure/category 200 in 290ms (next.js: 122ms, application-code: 169ms)
+ GET /studio/structure/category 200 in 108ms (next.js: 9ms, application-code: 99ms)
+✓ Compiled in 121ms
+✓ Compiled in 63ms
+ GET / 200 in 1642ms (next.js: 876ms, application-code: 766ms)
+✓ Finished filesystem cache database compaction in 12.1s
+ GET /blog/clarity-after-courage 200 in 3.1s (next.js: 2.2s, generate-params: 108ms, application-code: 865ms)
+ GET /blog 200 in 4.2s (next.js: 1779ms, application-code: 2.4s)
+✓ Compiled in 1209ms
+ GET / 200 in 1591ms (next.js: 500ms, application-code: 1091ms)
+ GET / 200 in 711ms (next.js: 9ms, application-code: 702ms)
+ GET / 200 in 740ms (next.js: 15ms, application-code: 725ms)
+ GET / 200 in 741ms (next.js: 148ms, application-code: 593ms)
+ GET / 200 in 740ms (next.js: 295ms, application-code: 445ms)
+ GET / 200 in 844ms (next.js: 458ms, application-code: 386ms)
+ GET / 200 in 266ms (next.js: 10ms, application-code: 256ms)
+ GET / 200 in 126ms (next.js: 14ms, application-code: 113ms)
+✓ Compiled in 1019ms
+ GET / 200 in 1406ms (next.js: 339ms, application-code: 1067ms)
+ GET / 200 in 699ms (next.js: 228ms, application-code: 471ms)
+ GET / 200 in 189ms (next.js: 12ms, application-code: 177ms)
+✓ Compiled in 1026ms
+✓ Compiled in 1086ms
+ GET / 200 in 7.8s (next.js: 3.2s, application-code: 4.6s)
+✓ Compiled in 10ms
+ GET / 200 in 364ms (next.js: 105ms, application-code: 259ms)
+✓ Compiled in 3.7s
+✓ Compiled in 0ms
+ GET / 200 in 7.1s (next.js: 780ms, application-code: 6.3s)
+ GET / 200 in 202ms (next.js: 11ms, application-code: 191ms)
+✓ Compiled in 66ms
+ GET / 200 in 1874ms (next.js: 384ms, application-code: 1491ms)
+ GET / 200 in 811ms (next.js: 9ms, application-code: 802ms)
+ GET / 200 in 3.5s (next.js: 393ms, application-code: 3.1s)
+✓ Compiled in 582ms
+ GET / 200 in 5.1s (next.js: 1976ms, application-code: 3.2s)
+ GET / 200 in 1898ms (next.js: 47ms, application-code: 1852ms)
+ GET / 200 in 1396ms (next.js: 861ms, application-code: 535ms)
+ GET / 200 in 1408ms (next.js: 747ms, application-code: 661ms)
+ GET / 200 in 1423ms (next.js: 597ms, application-code: 827ms)
+ GET / 200 in 843ms (next.js: 427ms, application-code: 416ms)
+ GET / 200 in 302ms (next.js: 10ms, application-code: 292ms)
+ GET / 200 in 169ms (next.js: 18ms, application-code: 151ms)
+ GET /blog/clarity-after-courage 200 in 2.1s (next.js: 1568ms, generate-params: 71ms, application-code: 582ms)
+ GET /blog/your-attention-is-building-a-life 200 in 359ms (next.js: 34ms, generate-params: 20ms, application-code: 325ms)

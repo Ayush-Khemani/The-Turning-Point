@@ -26,9 +26,32 @@ export async function generateMetadata({
     return {};
   }
 
+  const imageUrl = post.image?.url || "https://theturningpoint.com/og-image.jpg";
+
   return {
     title: `${post.title} | The Turning Point`,
     description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: "article",
+      publishedTime: new Date(post.publishedAt).toISOString(),
+      authors: [post.author.name],
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 600,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [imageUrl],
+    },
   };
 }
 
@@ -74,6 +97,12 @@ export default async function PostPage({
             width={1400}
             height={840}
             className="article-image"
+          />
+        ) : post.image?.url ? (
+          <img
+            src={post.image.url}
+            alt={post.image.alt || post.title}
+            className="article-image article-image-fallback"
           />
         ) : (
           <div

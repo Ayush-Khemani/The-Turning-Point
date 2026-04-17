@@ -8,6 +8,11 @@ export type SanityImageSource = {
   alt?: string;
 };
 
+export type PostImage = {
+  url: string;
+  alt: string;
+};
+
 export type Author = {
   name: string;
   role?: string;
@@ -25,6 +30,7 @@ export type Post = {
   author: Author;
   body: PortableTextBlock[];
   mainImage?: SanityImageSource;
+  image?: PostImage;
   accent: {
     from: string;
     to: string;

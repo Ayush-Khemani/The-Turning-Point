@@ -12,11 +12,11 @@ export default async function BlogPage() {
     <div className="shell page-stack">
       <section className="page-intro">
         <p className="eyebrow">Journal</p>
-        <h1>Writing that rewards slow reading.</h1>
+        <h1>Essays meant to stay with you after the tab is closed.</h1>
         <p className="muted wide-copy">
-          Search through essays on inner growth, psychology, relationships,
-          focus, and meaning. This archive is designed like a publication, not
-          a content dump.
+          Explore essays on identity, attention, relationships, growth, and the
+          difficult art of living well. The archive is organized for thoughtful
+          reading, not endless scrolling.
         </p>
       </section>
 

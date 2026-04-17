@@ -7,15 +7,25 @@ import { estimateReadingTime, formatDate } from "@/lib/utils";
 export function PostCard({ post }: { post: Post }) {
   return (
     <article className="post-card">
-      <div
-        className="cover-swatch"
-        style={
-          {
-            "--accent-from": post.accent.from,
-            "--accent-to": post.accent.to,
-          } as React.CSSProperties
-        }
-      />
+      <div className="cover-swatch">
+        {post.image?.url ? (
+          <img 
+            src={post.image.url} 
+            alt={post.image.alt || post.title}
+            className="cover-image"
+          />
+        ) : (
+          <div
+            className="cover-gradient"
+            style={
+              {
+                "--accent-from": post.accent.from,
+                "--accent-to": post.accent.to,
+              } as React.CSSProperties
+            }
+          />
+        )}
+      </div>
 
       <div className="post-card-body">
         <p className="meta-line">

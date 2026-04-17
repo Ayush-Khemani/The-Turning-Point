@@ -32,9 +32,10 @@ export function NewsletterForm() {
   return (
     <div className="newsletter-card">
       <p className="eyebrow">Newsletter</p>
-      <h3>Thoughtful writing, sent occasionally</h3>
+      <h3>New essays, sent with restraint</h3>
       <p className="muted">
-        Join the list for new essays on growth, perspective, and the inner life.
+        Join for thoughtful letters on perspective, growth, and the complicated
+        work of becoming.
       </p>
 
       <form onSubmit={onSubmit} className="newsletter-form">
@@ -47,7 +48,7 @@ export function NewsletterForm() {
           required
         />
         <button type="submit" disabled={isPending}>
-          {isPending ? "Joining..." : "Join"}
+          {isPending ? "Subscribing..." : "Subscribe"}
         </button>
       </form>
 
