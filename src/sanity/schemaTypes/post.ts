@@ -6,14 +6,6 @@ export const postType = defineType({
   type: "document",
   fields: [
     defineField({
-      name: "_status",
-      type: "string",
-      title: "Status",
-      description: "Set the publish status of this post",
-      hidden: ({ document }) => !document,
-      readOnly: true,
-    }),
-    defineField({
       name: "title",
       title: "Title",
       type: "string",
