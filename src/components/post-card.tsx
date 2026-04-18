@@ -13,6 +13,7 @@ export function PostCard({ post }: { post: Post }) {
             src={post.image.url} 
             alt={post.image.alt || post.title}
             className="cover-image"
+            loading="lazy"
           />
         ) : (
           <div

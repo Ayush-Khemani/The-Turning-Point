@@ -5,6 +5,7 @@ import type { Post } from "@/lib/types";
 import { slugify } from "@/lib/utils";
 import { hasSanityConfig } from "@/sanity/env";
 import { client } from "@/sanity/lib/client";
+import { urlFor } from "@/sanity/lib/image";
 import { POST_QUERY, POSTS_QUERY } from "@/sanity/lib/queries";
 
 function withAccents(posts: Omit<Post, "accent">[] | Post[]) {
@@ -17,6 +18,12 @@ function withAccents(posts: Omit<Post, "accent">[] | Post[]) {
 
   return posts.map((post, index) => ({
     ...post,
+    image: post.mainImage?.asset
+      ? {
+          url: urlFor(post.mainImage).width(600).height(400).fit("crop").url(),
+          alt: post.mainImage?.alt || post.title,
+        }
+      : undefined,
     accent:
       "accent" in post && post.accent ? post.accent : palette[index % palette.length],
     tags: post.tags || [],
