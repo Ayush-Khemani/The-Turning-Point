@@ -156,3 +156,4 @@ Creating turbopack project { dir: 'D:\\Ayush\\The Turning Point', testMode: true
  GET / 200 in 169ms (next.js: 18ms, application-code: 151ms)
  GET /blog/clarity-after-courage 200 in 2.1s (next.js: 1568ms, generate-params: 71ms, application-code: 582ms)
  GET /blog/your-attention-is-building-a-life 200 in 359ms (next.js: 34ms, generate-params: 20ms, application-code: 325ms)
+ GET / 200 in 2.0s (next.js: 83ms, application-code: 1955ms)

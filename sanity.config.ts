@@ -1,6 +1,13 @@
 import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
-import { structureTool } from "sanity/structure";
+import {
+  structureTool,
+  StructureBuilder,
+} from "sanity/structure";
+import {
+  defaultDocumentNode,
+  documentActions,
+} from "sanity/structure";
 
 import { schemaTypes } from "@/sanity/schemaTypes";
 
@@ -14,8 +21,19 @@ export default defineConfig({
   projectId,
   dataset,
   basePath: "/studio",
-  plugins: [structureTool(), visionTool()],
+  plugins: [
+    structureTool({
+      defaultDocumentNode: defaultDocumentNode(),
+    }),
+    visionTool(),
+  ],
   schema: {
     types: schemaTypes,
+  },
+  document: {
+    actions: (input) =>
+      documentActions(input, {
+        "post/publish": {},
+      }),
   },
 });
