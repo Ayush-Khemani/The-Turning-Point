@@ -18,4 +18,9 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
+  document: {
+    productionUrl: async (prev, context) => {
+      return prev;
+    },
+  },
 });

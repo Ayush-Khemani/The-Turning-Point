@@ -102,4 +102,19 @@ export const postType = defineType({
       validation: (rule) => rule.required(),
     }),
   ],
+  preview: {
+    select: {
+      title: "title",
+      author: "author.name",
+      media: "mainImage",
+    },
+    prepare(selection) {
+      const { author } = selection;
+      return {
+        title: selection.title,
+        subtitle: author && `by ${author}`,
+        media: selection.media,
+      };
+    },
+  },
 });

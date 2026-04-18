@@ -17,4 +17,10 @@ export const authorType = defineType({
       type: "string",
     }),
   ],
+  preview: {
+    select: {
+      title: "name",
+      subtitle: "role",
+    },
+  },
 });
