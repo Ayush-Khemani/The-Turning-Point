@@ -7,6 +7,8 @@ import { TagChip } from "@/components/tag-chip";
 import { getAllTags, getFeaturedPost, getLatestPosts } from "@/lib/content";
 import { estimateReadingTime, formatDate } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const [featuredPost, latestPosts, tags] = await Promise.all([
     getFeaturedPost(),

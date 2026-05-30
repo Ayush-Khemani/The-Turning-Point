@@ -1,6 +1,8 @@
 import { SearchablePostList } from "@/components/searchable-post-list";
 import { getAllPosts } from "@/lib/content";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Journal | The Turning Point",
 };

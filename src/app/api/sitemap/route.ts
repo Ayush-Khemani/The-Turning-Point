@@ -1,5 +1,7 @@
 import { getLatestPosts, getAllTags } from "@/lib/content";
 
+export const dynamic = "force-dynamic";
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://theturningpoint.com";
 
 async function generateSitemapXML() {

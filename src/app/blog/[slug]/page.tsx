@@ -9,6 +9,8 @@ import { getAllPosts, getPostBySlug } from "@/lib/content";
 import { estimateReadingTime, formatDate } from "@/lib/utils";
 import { urlFor } from "@/sanity/lib/image";
 
+export const dynamic = "force-dynamic";
+
 export async function generateStaticParams() {
   const posts = await getAllPosts();
   return posts.map((post) => ({ slug: post.slug }));

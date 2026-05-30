@@ -1,5 +1,3 @@
-import { cache } from "react";
-
 import { demoPosts } from "@/lib/demo-data";
 import type { Post } from "@/lib/types";
 import { slugify } from "@/lib/utils";
@@ -32,7 +30,7 @@ function withAccents(posts: Omit<Post, "accent">[] | Post[]) {
   }));
 }
 
-export const getAllPosts = cache(async () => {
+export async function getAllPosts() {
   if (!hasSanityConfig) {
     return demoPosts;
   }
@@ -47,9 +45,9 @@ export const getAllPosts = cache(async () => {
   } catch {
     return demoPosts;
   }
-});
+}
 
-export const getPostBySlug = cache(async (slug: string) => {
+export async function getPostBySlug(slug: string) {
   if (!hasSanityConfig) {
     return demoPosts.find((post) => post.slug === slug) || null;
   }
@@ -67,7 +65,7 @@ export const getPostBySlug = cache(async (slug: string) => {
   } catch {
     return demoPosts.find((item) => item.slug === slug) || null;
   }
-});
+}
 
 export async function getFeaturedPost() {
   const posts = await getAllPosts();
